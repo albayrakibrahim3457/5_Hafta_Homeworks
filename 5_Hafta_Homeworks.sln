@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Hafta_Homeworks", "5_Haft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{18F6297F-0F2F-4B6C-B2AF-472DBBFF806D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{F9B42E6C-691A-45C8-8497-664FB1C5878A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{C37CD72F-2105-439D-A06C-456E2EDA29B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{18F6297F-0F2F-4B6C-B2AF-472DBBFF806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18F6297F-0F2F-4B6C-B2AF-472DBBFF806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18F6297F-0F2F-4B6C-B2AF-472DBBFF806D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B42E6C-691A-45C8-8497-664FB1C5878A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B42E6C-691A-45C8-8497-664FB1C5878A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B42E6C-691A-45C8-8497-664FB1C5878A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B42E6C-691A-45C8-8497-664FB1C5878A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37CD72F-2105-439D-A06C-456E2EDA29B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37CD72F-2105-439D-A06C-456E2EDA29B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37CD72F-2105-439D-A06C-456E2EDA29B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37CD72F-2105-439D-A06C-456E2EDA29B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
