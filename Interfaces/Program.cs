@@ -10,6 +10,31 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            //InterfacesIntro();
+
+            //Demo();
+
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new SqlServerCustomerDal(),
+                new OracleServerCustomerDal(),
+                new MySqlCustomerDal(),
+
+            };
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+        }
+
+        private static void Demo()
+        {
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new OracleServerCustomerDal());
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
             Customer customer = new Customer
             {
@@ -28,7 +53,7 @@ namespace Interfaces
 
             };
 
-            Worker worker= new Worker
+            Worker worker = new Worker
             {
                 Id = 1,
                 FirstName = "Mehmet Ali",
@@ -40,7 +65,6 @@ namespace Interfaces
             manager.Add(student);
             manager.Add(customer);
             manager.Add(worker);
-
         }
     }
     interface IPerson
